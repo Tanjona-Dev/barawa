@@ -1,0 +1,49 @@
+* {
+    font-family: "Inconsolata", monospace;
+}
+
+.entete {
+    display: flex;
+}
+
+.hafa {
+    display: flex;
+    position: relative;
+    left: 80%;
+    gap: 30px;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+.titre-acceuil {
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+    color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.image-about {
+    width: 300px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
